@@ -45,3 +45,11 @@ button:hover,
 button:focus {
     background: #272eb5
 }
+
+input:invalid {
+    border-color: red;
+}
+
+input:valid {
+    border-color: green;
+}
