@@ -19,6 +19,7 @@ main {
     flex-direction: column;
     width: 100%;
     justify-content: center;
+    /*padding-top: px;*/
 }
 
 
@@ -74,6 +75,10 @@ button {
     color: #fff;
     border: none;
     padding: 0.6rem;
+}
+
+.green-text{
+    color: rgb(0, 128, 0);
 }
 
 button:hover,
