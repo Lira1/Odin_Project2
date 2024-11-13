@@ -6,11 +6,8 @@ main {
     background-color: #E0E0E0;
 }
 
-
-
 .left, .right {
     flex: 1; /* Distribuye el espacio de manera equitativa */
-
 }
 
 .right {
