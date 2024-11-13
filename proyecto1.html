@@ -7,31 +7,35 @@
     <link rel="stylesheet" href="./css/proyecto1.css">
 </head>
 <body>
-    <p><a href="./index.html"> Regresar al Inicio</a></p>
-    <p>Aun esta pendiente corregir las imagenes</p>
     <main>
-    <div class="left">
-        <img src="img/photo-1585202900225-6d3ac20a6962.avif">
+        <div class="left">
+            <img class="img-background" src="img/photo-1585202900225-6d3ac20a6962.avif" alt="imagen de fondo">
 
-    <div class="img-Odin">
-    <img src="./img/odin-lined.png" alt="Fondo de Odin">
-    </div>
-    </div>
+            <div class="odin">
+                <img src="./img/odin-lined.png" class="odin_image" alt="Fondo de Odin">
+                <h2>test de formulario en Odin</h2>
+            </div>
+        </div>
+
     <div class="right">
+        <h1>
+            This is not a real online service! You know you need something like
+            this in your life to help you realize your deepest dreams.
+            <br />Sign up now to get started.
+        </h1>
+        <h1 class="text">You know you want to.</h1>
     <form action="proyecto1.html" method="post">
         <fieldset>
             <label for="name">First Name</label>
             <input type="text" name="name" id="name" required>
             <label for="last-name">Last-Name</label>
             <input type="text" name="last-name" id="last-name" required>
-        </fieldset>
-        <fieldset>
+
             <label for="email">Email</label>
             <input type="email" name="email" id="email" required>
             <label for="Phone-Number">Phone-Number</label>
             <input type="text" name="Phone-Number" id="Phone-Number">
-        </fieldset>
-        <fieldset>
+
             <label for="password">Password</label>
             <input type="password" name="password" id="password" required>
             <label for="password1">Confirm password</label>
